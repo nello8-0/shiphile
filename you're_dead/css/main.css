@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: url(../img/books.jpg);
+   
+    -webkit-backdrop: cover;
+    background-size: cover;
+    background-position: center center;
+    /* height: 100vh; */
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0%;
+    padding: 0%;
+    
+}
+.nav{
+    margin: 0%;
+}
+nav{
+    height: 60px;
+    /* background: #848485; */
+    box-shadow: 20px 10px 15px rgba(121, 106, 106, 0.05);
+    padding: 300px 50px;
+   
+    
+}
+.logo{
+    padding: 7px 0 0 80px;
+    width: 30px;
+    height: auto;
+    /* position: relative;
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60%; */
+
+}
+nav ul{
+    padding: 0%;
+    margin: 0%;
+    float: right;
+    margin-right: 30px;
+    text-align: center;
+    float: unset;
+}
+nav ul li{
+    background: none;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+nav ul li a{
+    FONT-WEIGHT: 300;
+    display: block;
+    padding: 30px 20px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 25px;
+    /* text-shadow: 5px 3px #585758; */
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+nav ul li a:hover{
+    background: #e6ec86;
+    text-decoration: none;
+    text-align: center center;
+    box-sizing:border-box;
+}
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+nav ul ul ul li{
+    position: relative;
+    top: -60px;
+    letter-spacing: 150px;
+}
+.book{
+   background-attachment:scroll;
+   background-size:cover;
+   width: 100%;
+   height: 100px;
+   padding: 0px;
+}
+p{
+    text-align: left;
+    padding: 10%;
+    font-size: 50px;
+    color: white;
+    margin: 0% 0%;
+    margin-top: -150px;
+}
+.one{
+    color: white;
+    margin: 0 0% 0%;
+    font-size:  20px;
+    margin-top: -25%;
+}
+.tit{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    margin-top: -200px;
+}
+.mus{
+    font-size: 19px;
+    color: whitesmoke;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: #e6ec86;
+    background-color: darkgrey;
+    margin: 0 10% 20%;
+    padding: 9px;
+}
+.two{
+    text-align: center;
+    font-size: 40px;
+    color: darkslategrey;
+    padding: 60px;
+}
+.three{
+    text-align: center;
+    font-size: 17px;
+}
+.tweets{
+    cursor: crosshair;
+    background-position: left;
+    margin: 150px auto;
+    /* width: 50%; */
+    padding: 8px;
+}
+.img{
+    float: left;
+    width: 550px;
+    height: 300px;
+    padding: 6px 10px 0 0;
+    cursor: crosshair;
+}
+.-tet{
+    text-align: justify;
+    font-family: monospace;
+    font-size: 15px;
+    color: darkslategrey;
+    cursor: context-menu
+}
+._nen{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-style: oblique;
+    font-family: ui-monospace;
+    text-transform: uppercase;
+    text-shadow: #e6ec86;
+    background-color: darkgrey;
+    margin: 26px;
+    padding: 3px;
+}
+.img2{
+    float: right;
+    width: 550px;
+    height: 300px;
+    padding: 6px 10px 0 0;
+    cursor: crosshair;
+}
+.-rit{
+    text-align: justify;
+    font-family: monospace;
+    font-size: 15px;
+    color: darkslategrey;
+    cursor: context-menu;
+    /* float:right; */
+}
+._ten{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-style: oblique;
+    font-family: ui-monospace;
+    text-transform: uppercase;
+    text-shadow: #e6ec86;
+    background-color: darkgrey;
+    margin: 26px;
+    padding: 3px;
+}
+.oa{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 80px 50px;
+    margin: auto;
+}
+.pa{
+    background-image: url(../img/see.jpg);
+    -webkit-backdrop: cover;
+    background-size: cover;
+    background-position: center center;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0%;
+    padding: 0%;
+    
+}
+._four{
+    text-align: center;
+    color: whitesmoke;
+}
